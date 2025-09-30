@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nelflix</title>
     <link rel="stylesheet" href="netflix clone.style.css">
+    <script src="netflix clone.js"></script>
 </head>
 <body>
     <div class="first-part">
@@ -115,19 +116,5 @@
 </div>
 <p>Netflix made with ❤ by X-Orbit</p>
 </div>
-<script>
-    const movies = document.querySelector('.movies');
-const leftBtn = document.getElementById('leftBtn');
-const rightBtn = document.getElementById('rightBtn');
-
-leftBtn.addEventListener('click', () => {
-  movies.scrollBy({ left: -300, behavior: 'smooth' });
-});
-
-rightBtn.addEventListener('click', () => {
-  movies.scrollBy({ left: 300, behavior: 'smooth' });
-});
-
-</script>
 </body>
 </html>
