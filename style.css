@@ -102,7 +102,7 @@ body{
         background-color: darkred;
        }
        .first-part{
-         background-image: url("/images/Netflix.jpg");
+         background-image: url("./images/Netflix.jpg");
             background-attachment: fixed;
             background-position: center;
             background-repeat: no-repeat;
